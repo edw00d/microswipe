@@ -8,9 +8,9 @@ Usage
 
 On its own:
 
-new MicroSwipe({id:[MY_ELEMENT's ID],onSwipeComplete:CALLBACK});
+```new MicroSwipe({id:[MY_ELEMENT's ID],onSwipeComplete:CALLBACK});```
 
 jQuery:
 
-$([MY_ELEMENT]).microswipe(CALLBACK,[OPTS]);
+```$([MY_ELEMENT]).microswipe(CALLBACK,[OPTS]);```
 
