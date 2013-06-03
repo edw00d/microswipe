@@ -14,3 +14,4 @@ jQuery:
 
 ```$([MY_ELEMENT]).microswipe(CALLBACK,[OPTS]);```
 
+
