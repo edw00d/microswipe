@@ -16,6 +16,6 @@ eg:
 
 jQuery:
 
-```$([MY_ELEMENT]).microswipe(CALLBACK,[OPTS]);```
+`$([MY_ELEMENT]).microswipe(CALLBACK,[OPTS]);`
 
-```Other uses```
+
