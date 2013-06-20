@@ -24,18 +24,16 @@ eg:
 
 Options
 
-id                :   The id attribute of the element to be microswiped if you aren't using jQuery.
-STRING                You can only use the id as the selector if you aren't using jQuery.
-                      Not required if you use jQuery.
+id (STRING) : The id attribute of the element to be microswiped if you aren't using jQuery.
+You can only use the id as the selector if you aren't using jQuery.
+Not required if you use jQuery.
 
-distance          :   The distance the swipe has to travel to be considered a swipe.
-INT                   The value is interpreted as being pixels. 
-                      Lower this value to allow quick flicks to be considered swipes.
-                      Raise this value to only include very deliberate swipes.
+distance (INT)  :   The distance the swipe has to travel to be considered a swipe. The value is interpreted as being pixels. 
+Lower this value to allow quick flicks to be considered swipes.Raise this value to only include very deliberate swipes.
 
-delay             :   The minimum delay in milliseconds that has to elapse before the action can be considered a swipe.
-INT                   Lower this value to allow quick flicks to be considered swipes.
-                      Raise this value to only include very deliberate swipes.
+delay (INT) :   The minimum delay in milliseconds that has to elapse before the action can be considered a swipe. Lower this value to allow quick flicks to be considered swipes. Raise this value to only include very deliberate swipes.
 
-onSwipeComplete
+onBeforeSwipe (FUNCTION) : Specify a function to be executed before the swipe starts. The Event object is passed as an argument.
+
+onSwipeComplete (FUNCTION) : Specify a function to be executed after the swipe has completed. The Event object is passed as the first argument. An object with the swipeTime (INT), distance (INT) and direction (STRING - 'left' or 'right') is passed as the second.
 
