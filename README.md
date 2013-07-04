@@ -1,6 +1,6 @@
 MICROSWIPE
 
-Have you ever needed to add swipe functionality for iOS devices but not wanted to import huge libraries to do so?
+Have you ever needed to add swipe functionality for iOS and Android devices but not wanted to import huge libraries to do so?
 
 MICROSWIPE works without any external libraries, but works fine as a jQuery plugin as well.
 
