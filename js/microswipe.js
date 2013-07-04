@@ -44,7 +44,8 @@ MicroSwipe.prototype = {
     	return Math.abs(Math.abs(this.destX) - this.originX) > this.distance ? true : false;
     },
     _getStartPos:function(e){
-    	return e.pageX ? Number(e.pageX) : Number(e.clientX);
+    	return e.touches[0].pageX;
+    	//return e.pageX ? Number(e.pageX) : Number(e.clientX);
     },
     _getEndPos:function(e){
     	return e.changedTouches[0].pageX;
